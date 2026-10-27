@@ -1,0 +1,51 @@
+# Obsidian config: plugin data.json holds receiver token, local paths, sync state;
+# workspace files hold local state. Plugins are re-installable.
+.obsidian/
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+*.token
+*secret*
+*credential*
+.netrc
+.npmrc
+.pypirc
+.aws/
+.ssh/
+.gnupg/
+
+# Kobo / e-reader raw data (may contain full book content and device paths)
+*.sqlite
+*.sqlite3
+*.db
+*.kepub
+*.kepub.epub
+*.epub
+*.mobi
+*.azw*
+*.pdf
+
+# OS / editor / sync junk
+.DS_Store
+.AppleDouble
+.Trash/
+.trash/
+*.icloud
+.Spotlight-V100
+.fseventsd
+*.swp
+*~
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json
