@@ -6,7 +6,7 @@ generated_by: paperfolio
 isbn: 
 tags: [kobo, reading]
 created: 2026-10-27
-last_synced: 2026-10-27
+last_synced: 2026-10-29
 ---
 
 # Deep Work: Rules for Focused Success in a Distracted World
